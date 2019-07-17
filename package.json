@@ -1,0 +1,17 @@
+{
+  "name": "vue-jsonserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "json-server:remote": "json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0",
+    "vue-cli": "^2.9.6"
+  }
+}
